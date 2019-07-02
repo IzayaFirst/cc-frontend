@@ -1,0 +1,39 @@
+@import '~bootstrap/scss/bootstrap.scss';
+$cc-color: #18d8a9;
+$white-color: #fff;
+
+.btn-cc {
+    background: $cc-color !important;
+    border-color: $cc-color !important;
+}
+
+.btn-main-cc {
+    background: $cc-color;
+    width: 100%;
+    border-color: $cc-color;
+}
+.icon-button {
+    .left-icon {
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+    .right-icon {
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+    background-color: $white-color;
+    padding: 5px 8px;
+    font-size: 8px;
+    border: 1px solid #ccc;
+    outline-style: none;
+}
+
+.icon-selected {
+    background-color: $cc-color;
+    color: $white-color;
+}
+
+.icon-button:hover {
+    @extend .icon-selected
+}
+

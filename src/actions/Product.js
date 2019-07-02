@@ -9,7 +9,7 @@ export const setProductListAction = (lists) => {
     }
 }
 
-export const setProductDetail = (productDetail) => {
+export const setProductDetailAction = (productDetail) => {
     return {
         payload: productDetail,
         type: SET_PRODUCT_DETAIL 

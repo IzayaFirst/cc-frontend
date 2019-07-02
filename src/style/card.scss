@@ -1,0 +1,101 @@
+
+@import '~bootstrap/scss/bootstrap.scss';
+$pink-color: #ed2e7c;
+
+
+
+
+.link-section {
+    .row-card {
+        width: 60%;
+    }
+    width: 90%;
+    margin: 10px auto;
+}
+.row-title {
+    font-size: 20px;
+    font-weight: 700;       
+}
+
+.row-brand {
+    .card-img {
+        height: 200px;
+    }
+   width: 90%;
+   margin: 0 auto;
+   padding: 20px;
+}
+.card-img {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.card {
+    margin-top: 20px;
+    .card-img-top {
+        height: 200px;
+    }
+}
+.product-price {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: $pink-color;
+}
+
+.card-body {
+    .card-title {
+        padding: 0 10px;
+        font-weight: 700;
+    }
+}
+
+.brand-element {
+    display: inline-grid;
+}
+
+.brand-description {
+    padding: 10px 5px;
+    height: 100px;
+}
+
+.card-brand-detail {
+    display: flex;
+}
+
+.brand-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+}
+
+.card-detail {
+    padding: 25px;
+}
+.product-detail-description {
+    margin-top: 20px;
+}
+.product-detail-image {
+    width: 100%;
+    border: 1px solid #efefef;
+    border-radius: 6px;
+}
+
+.product-detail-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-detail-price {
+    color: $pink-color;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.product-amount {
+    margin-top: 20px;
+    width: 200px !important;
+}
+
+.product-detail-cart-submit {
+    margin-top: 20px;
+}
