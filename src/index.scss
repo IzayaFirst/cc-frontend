@@ -1,0 +1,14 @@
+$mainColor: #000;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: $mainColor;
+}
+
+.container {
+    margin-top: 25px;
+    padding: 10px;
+}
