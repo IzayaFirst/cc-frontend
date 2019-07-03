@@ -8,7 +8,7 @@ const GridContainer = ({ productList }) => {
     <div className="row" style={{ marginTop: '22px' }}>
         {productList.map((product, index) => {
             return (
-                <div className="col-sm-6 col-md-3" key={index}>
+                <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3" key={index}>
                     <GridCard {...product} />
                 </div>
             )

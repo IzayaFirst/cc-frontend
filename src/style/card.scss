@@ -6,12 +6,24 @@ $pink-color: #ed2e7c;
 
 
 .link-section {
-    .row-card {
-        width: 60%;
-    }
     width: 90%;
     margin: 10px auto;
 }
+
+.row-card {
+    position: absolute;
+    width: 90%;
+    bottom: 5px;
+    margin-top: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+    .row-card {
+        position: relative;
+        width: 90%;
+        margin-top: 10px auto;
+    }
+}
+
 .row-title {
     font-size: 20px;
     font-weight: 700;       
@@ -25,27 +37,84 @@ $pink-color: #ed2e7c;
    margin: 0 auto;
    padding: 20px;
 }
-.card-img {
-    border: 1px solid #ccc;
-    border-radius: 6px;
+
+@media only screen and (max-width: 1024px) {
+    .row-brand {
+        .card-img {
+            height: 300px;
+        }
+        padding: 5px;
+    }
 }
+
+
+@media only screen and (max-width: 768px) {
+    .row-brand {
+        .card-img {
+            height: 300px;
+        }
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .row-brand {
+        .card-img {
+            border: none;
+            height: 300px;
+        }
+        padding: 0;
+    }
+}
+
 .card {
     margin-top: 20px;
     .card-img-top {
         height: 200px;
     }
 }
+
+.card:hover {
+    box-shadow: 0 20px 50px rgba(183, 183, 183, 0.5);
+
+}
 .product-price {
     text-align: right;
+    padding: 10px 0;
     font-size: 14px;
     font-weight: 700;
     color: $pink-color;
 }
 
 .card-body {
+    height: 250px;
     .card-title {
         padding: 0 10px;
         font-weight: 700;
+    }
+}
+
+@media only screen and(min-width: 1300px) {
+    .card-body {
+        height: 160px;
+    }
+}
+
+@media only screen and(max-width: 1024px) {
+    .card-body {
+        height: 250px;
+    }
+}
+
+
+@media only screen and(max-width: 768px) {
+    .card-body {
+        height: 240px;
+    }
+}
+@media only screen and(max-width: 576px) {
+    .card-body {
+        height: 140px;
     }
 }
 

@@ -20,9 +20,9 @@ const GridCard =  ({ id, name, image_url, description, price, brand_info }) => {
                 <div className="card-text brand-description">
                     <span>{truncateDescription(description)}</span>
                 </div>
-                <p className="product-price">฿{price}</p>
             </div>
             <div className="link-section">
+            <div className="product-price">฿{price}</div>
                 <Link to={`/product/${id}`}  className="btn btn-primary btn-main-cc">Detail</Link>
             </div>
         </div>
